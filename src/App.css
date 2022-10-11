@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 1.6rem;
+  color: white;
+  background-color: #1b1b32;
+  font-family: 'Lato', sans-serif;
+  margin-top: 4rem;
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+}
+
+/* Logo de FreeCodeCamp */
+.freecodecamp-logo-contenedor{
+  width: 100%;
+  margin: 2rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo{
+  width: 40rem;
+  height: 5rem;
+}
+
+/* Lista de Tareas */
+.tareas-lista-principal{
+  width: 60rem;
+  min-height: 50rem;
+  background-color: #d0d0d5;
+  padding: 2.5rem;
+  margin: 1rem;
+  border-radius: 2.5rem;
+}
